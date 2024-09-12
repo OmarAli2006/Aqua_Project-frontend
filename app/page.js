@@ -88,7 +88,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
             className="items-center text-center lg:text-left mb-8 lg:mb-0"
           >
-            <h1 className="text-4xl lg:text-6xl font-bold text-white/800 mb-4">
+            <h1 className="text-4xl lg:text-6xl font-bold text-white/600 mb-4">
               Calculadora de Diseño Estructural
             </h1>
             <h2 className="text-2xl text-white/40 mb-8">
@@ -109,7 +109,7 @@ export default function Home() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5, delay: 0.4 }}
             >
-              <Link href="/app">
+              <Link href="/inicio">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
@@ -132,7 +132,7 @@ export default function Home() {
               alt="Diseño estructural de tubería enterrada"
               width={400} // Tamaño base
               height={400}
-              className="rounded-lg shadow-lg object-contain" 
+              className="rounded-lg shadow-lg object-contain opacity-50" 
             />
           </motion.div>
         </div>
